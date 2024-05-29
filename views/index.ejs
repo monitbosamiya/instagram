@@ -22,6 +22,7 @@
       </div>
     </div>
     <hr />
+    <h2>Choose Account</h2>
     <!-- <div id="main">
       <div class="profile">
         <img class="profile_img" src="" alt="" />
@@ -41,10 +42,17 @@
         <div class="profile">
             <img class="profile_img" src="<%= profile.pp%>" alt="" />
             <h3>@<%= profile.username%></h3>
-            <a href="/profile/<%= profile.id%>"><button>See Profile</button></a>
+            <a href="/profile/<%= profile.id%>"><button>See Profile</button></a><br>
+            <br>
+            <form action="/profile/<%=profile.id%>?_method=DELETE" method="post">
+              <a href=""><button>Delete Account</button></a>
+            </form>
           </div>
           <br>
           <br>
     <% } %>
+    <br>
+    <br>
+    <a href="/profile/new"><button>Create Account</button></a>
   </body>
 </html>

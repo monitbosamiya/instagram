@@ -1,0 +1,30 @@
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#inlogo{
+    height: 40px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+
+#header{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#sub{
+    position: relative;
+    /* left: 100px; */
+    right: 120px;
+    top: 50px;
+}

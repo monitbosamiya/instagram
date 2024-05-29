@@ -1,0 +1,43 @@
+#dp{
+    height: 300px;
+    border-radius: 50%;
+}
+
+#header{
+    display: flex;
+}
+
+#header h3{
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 10px;
+}
+
+#follow{
+    height: 100px;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 70px;
+    right: 47px;
+}
+
+#desc{
+    position: relative;
+    top: 125px;
+    right: 335px;
+}
+
+h4{
+    text-align: center;
+}
+
+.post{
+    height: 200px;
+}
+
+#img{
+    display:flex;
+    justify-content: space-around;
+
+}
+

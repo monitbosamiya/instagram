@@ -4,11 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= profile.username%></title>
+    <link rel="stylesheet" href="/profile.css">
   </head>
   <body>
-    <div>
-      <img src="<%= profile.pp %>" alt="" />
-      <p><%= profile.username %></p>
+    <div id="header">
+      <img id="dp"src="<%= profile.pp %>" alt="" />
+      <h3><%= profile.username %></h3>
+      <span id="follow">
+      <p> <%= profile.post%> Posts &nbsp; &nbsp; &nbsp; <%= profile.followers%> Followers &nbsp; &nbsp; &nbsp; <%= profile.following %> Following</p>
+    </span> 
+    <p id="desc"><%= profile.desc%></p>
     </div>
+    <hr>
+    <h4>POSTS</h4>
+    <div id="img">
+        <img class="post" src="<%= profile.p1%>" alt="">    
+        <img class="post" src="<%= profile.p2%>" alt="">
+        <img class="post" src="<%= profile.p3%>" alt="">
+        <img class="post" src="<%= profile.p4%>" alt="">
+    </div>
+
   </body>
 </html>
