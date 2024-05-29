@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div>
+        <img
+          src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-three-dimensional-instagram-icon-png-image_9015419.png"
+          id="inlogo"
+          alt=""
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUtZ2q6Dr4ZP4zU01VfGffyc_u-z8vIY4BCA&s"
+          height="75px"
+          alt=""
+        />
+      </div>
+    </div>
+    <hr />
+    <!-- <div id="main">
+      <div class="profile">
+        <img class="profile_img" src="" alt="" />
+        <h3>@</h3>
+        <a href=""><button>See Profile</button></a>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <div class="profile">
+        <img class="profile_img" src="" alt="" />
+        <h3>@</h3>
+        <a id="bhargav" href=""><button>See Profile</button></a>
+      </div>
+    </div> -->
+    <% for(profile of profiles) { %>
+        <div class="profile">
+            <img class="profile_img" src="<%= profile.pp%>" alt="" />
+            <h3>@<%= profile.username%></h3>
+            <a href="/profile/<%= profile.id%>"><button>See Profile</button></a>
+          </div>
+          <br>
+          <br>
+    <% } %>
+  </body>
+</html>

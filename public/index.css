@@ -1,0 +1,43 @@
+#inlogo{
+    height: 40px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+
+#header{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.profile_img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* /* #main{
+    display: flex;
+} */
+
+/* .profile{
+    width: 300px;
+    display: flex;
+}
+
+.profile h3{
+    margin-left: 30px;
+}
+
+.profile a{
+    position: absolute;
+    top: 220px;
+}
+
+#bhargav{
+
+} */
+
+/* .profile{
+    display: inline;
+} */
